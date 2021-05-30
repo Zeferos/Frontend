@@ -1,0 +1,57 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.21.1",
+    "date-fns": "^2.21.1",
+    "google-map-react": "^2.1.9",
+    "node": "^16.0.0",
+    "@reach/combobox": "^0.15.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
+    "@react-google-maps/api": "^2.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "swr": "^0.5.6",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "use-places-autocomplete": "^1.9.3",
+    "use-supercluster": "^0.2.9",
+    "web-vitals": "^1.0.1",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify-icons/mdi": "^1.1.15",
+    "@iconify/icons-mdi": "^1.1.15",
+    "@iconify/react": "^1.1.4",
+    "@types/googlemaps": "^3.43.3"
+  }
+}
